@@ -21,7 +21,7 @@ EMBASEapiKey = config['ELSapikey']#Obtain from https://dev.elsevier.com
 ETMapiKey = config['ETMapikey'] #Obtain from https://dev.elsevier.com
 token = config['insttoken'] #Obtain from mailto:integrationsupport@elsevier.com 
 
-SearchQuery = '("acute generalized exanthematous pustulosis":ti,ab OR agep:ti,ab OR "generalized bullous fixed drug eruptions":ti,ab OR gbfde:ti,ab OR "stevens johnson syndrome":ti,ab OR sjs:ti,ab OR "stevens-johnson syndrome":ti,ab OR "toxic epidermal necrolysis":ti,ab OR "dress syndrome":ti,ab OR "drug reaction with eosinophilia and systemic symptoms":ti,ab OR "severe cutaneous adverse reactions":ti,ab OR "sjs-ten":ti,ab OR "sjs/ten":ti,ab) AND ([conference abstract]/lim OR [conference review]/lim)'
+SearchQuery = '("acute generalized exanthematous pustulosis":ti,ab) AND ([conference abstract]/lim OR [conference review]/lim)'
 PageSize = 100 #controls number of records downloaded in one get request 
 
 baseURL = 'https://api.elsevier.com/content/embase/article/'
