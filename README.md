@@ -1,2 +1,2 @@
 # Embase-API-Python-SDK
-Sample code to access EMBASE API
+Sample Python code to access EMBASE API and process its response
