@@ -7,7 +7,7 @@ import json
 import codecs
 
 def OpenFile(fname):
-    open(fname, "w", encoding='utf-8').close()
+    open(fname, "w").close()
     return open(fname, "a", encoding='utf-8')
 
 
